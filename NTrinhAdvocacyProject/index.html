@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Affirmative Action</title>
+  <link rel="icon" href="images/icon.webp" />
+  <link rel="stylesheet" href=style.css>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <ul class="navbar">
+      <li><a href="#header-img">About</a></li>
+      <li><a href="#definition">History</a></li>
+      <li><a href="#information-section">Why Affirmative Action?</a></li>
+      <li><a href="#news-section">Recent news</a></li>
+      <li><button id="theme-button">Toggle Dark Mode</button></li>
+    </ul>
+  </div>
+  <div class="header-container">
+    <img id="header-img" src="images/scaler header.png">
+    <h1>Affirmative Action</h1>
+    <h3 class="description">An equal future for all</h3>
+    <button type="button" class="header-button">Share your story</button>
+  </div>
+  <div class="flex-container">
+    <h2 id="definition">What is Affirmative Action?</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9Pcm00E-DEM?si=ZcM9M9mZyKUzKX_L"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+    <p>Affirmative action is a policy designed to increase opportunities for historically disadvantaged groups in areas
+      like education and employment.</p>
+  </div>
+  <div class="flex-container">
+    <h2 id="information-section">How does Affirmative Action help?</h2>
+    <h3>In schools</h3>
+    <img src="images/3d school.webp" width="300" height="300">
+    <p>Affirmative action in education fosters diversity, addresses historical injustices, and ensures equal
+      opportunities, enriching learning environments and promoting social mobility. By supporting underrepresented
+      groups,
+      it prepares students for a diverse workforce and reflects a commitment to equality.</p>
+    <h3>In employment</h3>
+    <img src="images/3d workplace.webp" width="300" height="300">
+    <p>
+      Affirmative action in employment fosters diversity and reduces discrimination by ensuring the inclusion of
+      underrepresented groups. It boosts company reputation and promotes employee satisfaction, preparing businesses for
+      the global market. This drives economic growth and benefit both employees and employers</p>
+  </div>
+  <div class="petition" id="petition">
+    <h2 style="color: white; font-weight: bolder; padding: 20px; padding-bottom: 0px;">Sign Our Petition 📢</h2>
+    <div class="petition-container">
+      <div class="petition-para">
+        <p style="color: white; font-family: Arial; padding-left: 15px;">Affirmative action stands as a beacon of hope
+          and equality, inviting us to embrace the rich diversity that defines us. It's about lifting up voices that
+          have been silenced, shining a light on talent that has been overlooked, and building bridges across the
+          divides that separate us. By signing this petition, you support our collective commitment to a fairer, more
+          inclusive world where every individual has the opportunity to thrive. Join us in this vital cause, and let us
+          together champion a future where diversity is not just accepted, but celebrated, for it is in our unity and
+          our differences that our true strength lies.</p>
+      </div>
+      <div class="signatures">
+        <p>🖊️ Nick from Brooklyn supports this.</p>
+        <p>🖊️ Tom from Queens supports this.</p>
+        <p>🖊️ Bill from Tampa supports this.</p>
+        <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+      </div>
+    </div>
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <label>Name:</label>
+      <input type="text" id="name">
+      <label>Hometown:</label>
+      <input type="text" id="hometown">
+      <label>Email:</label>
+      <input type="text" id="email">
+    </form>
+    <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+  </div>
+  <div>
+    <h2 id="news-section">News</h2>
+    <ul>
+      <a href="https://www.nytimes.com/2024/03/15/briefing/affirmative-action.html" target="_blank">What Groups Need
+        Affirmative Action?</a>
+      <h3>
+
+      </h3>
+      <a href="https://www.post-gazette.com/news/education/2024/03/14/pittsburgh-high-school-students-college-essay-admissions/stories/202403170002"
+        target="_blank">After affirmative action ban, more emphasis is placed on college essay</a>
+      <h3>
+
+      </h3>
+      <a href="https://www.cnbc.com/2024/02/05/supreme-courts-affirmative-action-ruling-impact-on-college-applicants.html"
+        target="_blank">How the Supreme Court affirmative action decision is affecting college applicants</a>
+      <h3>
+
+      </h3>
+      <a href="https://www.cbsnews.com/news/supreme-court-affirmative-action-virginia-thomas-jefferson-high-school/"
+        target="_blank">Supreme Court turns away affirmative action dispute over Virginia high school's admissions
+        policies
+      </a>
+    </ul>
+  </div>
+  <footer class="fixed-footer">
+    <a href="https://www.usnews.com/education/best-colleges/applying/articles/how-does-affirmative-action-affect-college-admissions"
+      target="_blank">For college applicants</a>
+    <a href="https://en.wikipedia.org/wiki/Affirmative_action" target="_blank">Wiki</a>
+    <a href="">Contacts</a>
+  </footer>
+  <script src="index.js">
+  </script>
+</body>
+
+</html>
